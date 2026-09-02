@@ -2106,9 +2106,11 @@ body {
 
 .article-hero {
     display: block;
+    width: 100%;
     max-width: 970px;
     margin: 0 auto;
-    height: 515px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     border-radius: var(--radius-image);
     object-fit: cover;
     box-shadow: var(--shadow-card);
@@ -3327,7 +3329,7 @@ body {
     }
 
     .article-hero {
-        height: 330px;
+        aspect-ratio: 16 / 10;
     }
 
     .article-share,
