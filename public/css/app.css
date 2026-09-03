@@ -3227,6 +3227,7 @@ body {
     }
 
     .product-card .button {
+        margin-top: auto;
         font-size: 12px;
     }
 
