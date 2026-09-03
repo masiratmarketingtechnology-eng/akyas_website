@@ -2743,6 +2743,7 @@ body {
 
     body {
         padding-top: 72px;
+        overflow-x: hidden;
     }
 
     .main-nav {
@@ -3202,11 +3203,42 @@ body {
     }
 
     .product-card__image {
-        height: 220px;
+        height: 180px;
+    }
+
+    .product-card__body {
+        min-height: auto;
+        padding: 14px;
     }
 
     .product-card__body h2 {
-        font-size: 16px;
+        font-size: 15px;
+        min-height: auto;
+        margin-bottom: 6px;
+    }
+
+    .product-card__tagline {
+        font-size: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin-bottom: 8px;
+    }
+
+    .product-card .button {
+        font-size: 12px;
+    }
+
+    .blog-card__body {
+        min-height: auto;
+    }
+
+    .blog-card__body p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 
     .card-label {
